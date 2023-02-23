@@ -1,0 +1,611 @@
+RB
+	name base
+	mass 26.373170
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 1.785162 1.833699 0.216712 -0.000164 0.009224 0.058933
+	mesh robots/anymal_c/meshes/base.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.183013 -0.683013 0.183013 -0.683013 0.104178 -0.008504 0.317694
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.183013 -0.683013 0.183013 0.683013 0.104178 -0.008504 -0.282106
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.183013 0.683013 0.183013 0.683013 -0.103822 -0.008504 0.317694
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.183013 0.683013 0.183013 -0.683013 -0.103822 -0.008504 -0.282106
+	mesh robots/anymal_c/meshes/battery.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	mesh robots/anymal_c/meshes/bottom_shell.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	mesh robots/anymal_c/meshes/face.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.432294
+	mesh robots/anymal_c/meshes/depth_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.683013 -0.183013 0.683013 0.183013 0.000178 -0.037704 0.479444
+	mesh robots/anymal_c/meshes/wide_angle_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 0.006466 0.530794
+	mesh robots/anymal_c/meshes/face.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 -0.707107 0.000000 0.000178 -0.008504 -0.396706
+	mesh robots/anymal_c/meshes/depth_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.683013 0.183013 -0.683013 0.183013 0.000178 -0.037704 -0.443856
+	mesh robots/anymal_c/meshes/wide_angle_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 -0.707107 0.000000 0.000178 0.006466 -0.495206
+	mesh robots/anymal_c/meshes/handle.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	mesh robots/anymal_c/meshes/hatch.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 0.064496 0.133794
+	mesh robots/anymal_c/meshes/remote.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	mesh robots/anymal_c/meshes/depth_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.965926 -0.000000 0.000000 0.258819 0.076638 0.020546 0.017794
+	mesh robots/anymal_c/meshes/depth_camera.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 -0.258819 0.965926 0.000000 -0.076282 0.020546 0.017794
+	mesh robots/anymal_c/meshes/lidar_cage.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 0.064996 -0.346206
+	mesh robots/anymal_c/meshes/lidar.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 0.000000 1.000000 0.000000 0.000178 0.133696 -0.346206
+	mesh robots/anymal_c/meshes/top_shell.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.000178 -0.008504 0.017794
+	collisionSphere 0.070178 0.081496 0.307794 0.010000
+	collisionSphere -0.069822 0.081496 0.307794 0.010000
+	collisionSphere 0.070178 -0.098504 0.307794 0.010000
+	collisionSphere -0.069822 -0.098504 0.307794 0.010000
+	collisionSphere 0.070178 0.081496 -0.272206 0.010000
+	collisionSphere -0.069822 0.081496 -0.272206 0.010000
+	collisionSphere 0.070178 -0.098504 -0.272206 0.010000
+	collisionSphere -0.069822 -0.098504 -0.272206 0.010000
+	collisionSphere 0.070178 -0.008504 0.307794 0.010000
+	collisionSphere 0.070178 -0.008504 0.162794 0.010000
+	collisionSphere 0.070178 -0.008504 -0.127206 0.010000
+	collisionSphere 0.070178 -0.008504 -0.272206 0.010000
+	collisionSphere -0.069822 -0.008504 0.307794 0.010000
+	collisionSphere -0.069822 -0.008504 0.162794 0.010000
+	collisionSphere -0.069822 -0.008504 -0.127206 0.010000
+	collisionSphere -0.069822 -0.008504 -0.272206 0.010000
+	collisionSphere 0.070178 0.081496 0.542294 0.010000
+	collisionSphere -0.069822 0.081496 0.542294 0.010000
+	collisionSphere 0.070178 -0.098504 0.542294 0.010000
+	collisionSphere -0.069822 -0.098504 0.542294 0.010000
+	collisionSphere 0.070178 0.081496 0.432294 0.010000
+	collisionSphere -0.069822 0.081496 0.432294 0.010000
+	collisionSphere 0.070178 -0.098504 0.432294 0.010000
+	collisionSphere -0.069822 -0.098504 0.432294 0.010000
+	collisionSphere 0.070178 -0.008504 0.542294 0.010000
+	collisionSphere 0.070178 -0.008504 0.432294 0.010000
+	collisionSphere -0.069822 -0.008504 0.542294 0.010000
+	collisionSphere -0.069822 -0.008504 0.432294 0.010000
+	collisionSphere -0.069822 0.081496 -0.506706 0.010000
+	collisionSphere 0.070178 0.081496 -0.506706 0.010000
+	collisionSphere -0.069822 -0.098504 -0.506706 0.010000
+	collisionSphere 0.070178 -0.098504 -0.506706 0.010000
+	collisionSphere -0.069822 0.081496 -0.396706 0.010000
+	collisionSphere 0.070178 0.081496 -0.396706 0.010000
+	collisionSphere -0.069822 -0.098504 -0.396706 0.010000
+	collisionSphere 0.070178 -0.098504 -0.396706 0.010000
+	collisionSphere -0.069822 -0.008504 -0.506706 0.010000
+	collisionSphere -0.069822 -0.008504 -0.396706 0.010000
+	collisionSphere 0.070178 -0.008504 -0.506706 0.010000
+	collisionSphere 0.070178 -0.008504 -0.396706 0.010000
+	collisionSphere 0.000178 0.184996 -0.346206 0.010000
+	collisionSphere 0.000178 0.064996 -0.346206 0.010000
+	collisionSphere 0.020528 0.047776 0.254594 0.010000
+	collisionSphere -0.003472 0.047776 0.254594 0.010000
+	collisionSphere 0.020528 0.037776 0.254594 0.010000
+	collisionSphere -0.003472 0.037776 0.254594 0.010000
+	collisionSphere 0.020528 0.047776 0.278594 0.010000
+	collisionSphere -0.003472 0.047776 0.278594 0.010000
+	collisionSphere 0.020528 0.037776 0.278594 0.010000
+	collisionSphere -0.003472 0.037776 0.278594 0.010000
+/End_RB
+
+
+RB
+	name LF_HIP
+	mass 2.781000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004938 0.005833 0.003296 0.000136 -0.000045 -0.000098
+	mesh robots/anymal_c/meshes/hip_l.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.017394 0.000461 -0.056661
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -1.000000 0.000000 0.000000 0.000000 0.066416 0.000461 0.003239
+	collisionSphere 0.066416 0.000461 0.003239 0.010000
+	collisionSphere -0.073584 0.000461 0.003239 0.010000
+/End_RB
+
+
+RB
+	name LH_HIP
+	mass 2.781000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004940 0.005835 0.003296 0.000136 -0.000045 -0.000100
+	mesh robots/anymal_c/meshes/hip_r.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 -0.000000 -0.707107 -0.000000 -0.017394 0.000461 0.056763
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 1.000000 0.000000 -0.000000 0.000000 0.066416 0.000461 -0.003137
+	collisionSphere 0.066416 0.000461 -0.003137 0.010000
+	collisionSphere -0.073584 0.000461 -0.003137 0.010000
+/End_RB
+
+
+RB
+	name RF_HIP
+	mass 2.781000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004940 0.005835 0.003296 -0.000136 -0.000045 0.000100
+	mesh robots/anymal_c/meshes/hip_r.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.017394 0.000461 -0.056763
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 0.000000 1.000000 0.000000 -0.066416 0.000461 0.003137
+	collisionSphere -0.066416 0.000461 0.003137 0.010000
+	collisionSphere 0.073584 0.000461 0.003137 0.010000
+/End_RB
+
+
+RB
+	name RH_HIP
+	mass 2.781000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004938 0.005833 0.003296 -0.000136 -0.000045 0.000098
+	mesh robots/anymal_c/meshes/hip_l.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 -0.707107 0.000000 0.017394 0.000461 0.056661
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 -1.000000 0.000000 -0.066416 0.000461 -0.003239
+	collisionSphere -0.066416 0.000461 -0.003239 0.010000
+	collisionSphere 0.073584 0.000461 -0.003239 0.010000
+/End_RB
+
+
+RB
+	name LF_THIGH
+	mass 3.071000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.029564 0.004861 0.029904 0.004142 -0.000044 -0.000094
+	mesh robots/anymal_c/meshes/thigh.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.030815 0.245696 0.000046
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -1.000000 0.000000 0.000000 0.000000 0.069485 -0.039304 0.000046
+	collisionSphere -0.030815 0.245696 0.000046 0.010000
+	collisionSphere 0.049185 0.245696 0.000046 0.010000
+	collisionSphere 0.029185 0.245696 0.037546 0.010000
+	collisionSphere -0.030815 0.245696 0.037546 0.010000
+	collisionSphere 0.029185 -0.036931 0.037546 0.010000
+	collisionSphere -0.030815 -0.036931 0.037546 0.010000
+	collisionSphere 0.029185 0.245696 -0.037454 0.010000
+	collisionSphere -0.030815 0.245696 -0.037454 0.010000
+	collisionSphere 0.029185 -0.036931 -0.037454 0.010000
+	collisionSphere -0.030815 -0.036931 -0.037454 0.010000
+	collisionSphere 0.069485 -0.039304 0.000046 0.010000
+	collisionSphere -0.070515 -0.039304 0.000046 0.010000
+/End_RB
+
+
+RB
+	name LH_THIGH
+	mass 3.071000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.029564 0.004861 0.029904 0.004142 -0.000044 -0.000115
+	mesh robots/anymal_c/meshes/thigh.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707107 0.000000 -0.707107 -0.000000 -0.030815 0.245696 0.000046
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 1.000000 0.000000 -0.000000 -0.000000 0.069485 -0.039304 0.000046
+	collisionSphere -0.030815 0.245696 0.000046 0.010000
+	collisionSphere 0.049185 0.245696 0.000046 0.010000
+	collisionSphere 0.029185 0.245696 0.037546 0.010000
+	collisionSphere -0.030815 0.245696 0.037546 0.010000
+	collisionSphere 0.029185 -0.036931 0.037546 0.010000
+	collisionSphere -0.030815 -0.036931 0.037546 0.010000
+	collisionSphere 0.029185 0.245696 -0.037454 0.010000
+	collisionSphere -0.030815 0.245696 -0.037454 0.010000
+	collisionSphere 0.029185 -0.036931 -0.037454 0.010000
+	collisionSphere -0.030815 -0.036931 -0.037454 0.010000
+	collisionSphere 0.069485 -0.039304 0.000046 0.010000
+	collisionSphere -0.070515 -0.039304 0.000046 0.010000
+/End_RB
+
+
+RB
+	name RF_THIGH
+	mass 3.071000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.029564 0.004861 0.029904 -0.004142 -0.000044 0.000115
+	mesh robots/anymal_c/meshes/thigh.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.707107 0.000000 0.707107 0.000000 0.030815 0.245696 -0.000046
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.000000 0.000000 1.000000 0.000000 -0.069485 -0.039304 -0.000046
+	collisionSphere -0.049185 0.245696 -0.000046 0.010000
+	collisionSphere 0.030815 0.245696 -0.000046 0.010000
+	collisionSphere 0.030815 0.245696 0.037454 0.010000
+	collisionSphere -0.029185 0.245696 0.037454 0.010000
+	collisionSphere 0.030815 -0.036931 0.037454 0.010000
+	collisionSphere -0.029185 -0.036931 0.037454 0.010000
+	collisionSphere 0.030815 0.245696 -0.037546 0.010000
+	collisionSphere -0.029185 0.245696 -0.037546 0.010000
+	collisionSphere 0.030815 -0.036931 -0.037546 0.010000
+	collisionSphere -0.029185 -0.036931 -0.037546 0.010000
+	collisionSphere -0.069485 -0.039304 -0.000046 0.010000
+	collisionSphere 0.070515 -0.039304 -0.000046 0.010000
+/End_RB
+
+
+RB
+	name RH_THIGH
+	mass 3.071000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.029564 0.004861 0.029904 -0.004142 -0.000044 0.000094
+	mesh robots/anymal_c/meshes/thigh.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 -0.707107 0.000000 0.030815 0.245696 -0.000046
+	mesh robots/anymal_c/meshes/drive.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation 0.000000 0.000000 -1.000000 0.000000 -0.069485 -0.039304 -0.000046
+	collisionSphere -0.049185 0.245696 -0.000046 0.010000
+	collisionSphere 0.030815 0.245696 -0.000046 0.010000
+	collisionSphere 0.030815 0.245696 0.037454 0.010000
+	collisionSphere -0.029185 0.245696 0.037454 0.010000
+	collisionSphere 0.030815 -0.036931 0.037454 0.010000
+	collisionSphere -0.029185 -0.036931 0.037454 0.010000
+	collisionSphere 0.030815 0.245696 -0.037546 0.010000
+	collisionSphere -0.029185 0.245696 -0.037546 0.010000
+	collisionSphere 0.030815 -0.036931 -0.037546 0.010000
+	collisionSphere -0.029185 -0.036931 -0.037546 0.010000
+	collisionSphere -0.069485 -0.039304 -0.000046 0.010000
+	collisionSphere 0.070515 -0.039304 -0.000046 0.010000
+/End_RB
+
+
+RB
+	name LF_SHANK
+	mass 0.588420
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.010161 0.001550 0.008810 -0.000023 0.000054 0.001819
+	mesh robots/anymal_c/meshes/shank_l.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.005462 0.080660 -0.061253
+	mesh robots/anymal_c/meshes/foot.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.382683 0.000000 0.923880 0.000000 0.007588 -0.257310 0.026697
+	collisionSphere -0.005462 0.080660 -0.061253 0.010000
+	collisionSphere 0.034538 0.080660 -0.061253 0.010000
+	collisionSphere -0.005462 0.114410 0.053745 0.010000
+	collisionSphere 0.034538 0.114410 0.053745 0.010000
+	collisionSphere -0.005462 0.046910 0.053745 0.010000
+	collisionSphere 0.034538 0.046910 0.053745 0.010000
+	collisionSphere -0.005462 0.114410 -0.061253 0.010000
+	collisionSphere 0.034538 0.114410 -0.061253 0.010000
+	collisionSphere -0.005462 0.046910 -0.061253 0.010000
+	collisionSphere 0.034538 0.046910 -0.061253 0.010000
+	collisionSphere 0.007588 0.052927 0.026697 0.010000
+	collisionSphere 0.007588 -0.234810 0.026697 0.010000
+	endEffector 0.007588 -0.234810 0.026697 0.010000
+/End_RB
+
+
+RB
+	name LH_SHANK
+	mass 0.588420
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.010161 0.001550 0.008810 -0.000023 -0.000054 -0.001819
+	mesh robots/anymal_c/meshes/shank_r.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 -0.000000 -0.707107 -0.000000 -0.005462 0.080660 0.061253
+	mesh robots/anymal_c/meshes/foot.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.382683 -0.000000 -0.923880 -0.000000 0.007588 -0.257310 -0.026697
+	collisionSphere -0.005462 0.080660 0.061253 0.010000
+	collisionSphere 0.034538 0.080660 0.061253 0.010000
+	collisionSphere -0.005462 0.114410 0.061253 0.010000
+	collisionSphere 0.034538 0.114410 0.061253 0.010000
+	collisionSphere -0.005462 0.046910 0.061253 0.010000
+	collisionSphere 0.034538 0.046910 0.061253 0.010000
+	collisionSphere -0.005462 0.114410 -0.053745 0.010000
+	collisionSphere 0.034538 0.114410 -0.053745 0.010000
+	collisionSphere -0.005462 0.046910 -0.053745 0.010000
+	collisionSphere 0.034538 0.046910 -0.053745 0.010000
+	collisionSphere 0.007588 0.052927 -0.026697 0.010000
+	collisionSphere 0.007588 -0.234810 -0.026697 0.010000
+	endEffector 0.007588 -0.234810 -0.026697 0.010000
+/End_RB
+
+
+RB
+	name RF_SHANK
+	mass 0.588420
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.010161 0.001550 0.008810 0.000023 -0.000054 0.001819
+	mesh robots/anymal_c/meshes/shank_r.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.005462 0.080660 -0.061253
+	mesh robots/anymal_c/meshes/foot.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.923880 0.000000 0.382683 0.000000 -0.007588 -0.257310 0.026697
+	collisionSphere -0.034538 0.080660 -0.061253 0.010000
+	collisionSphere 0.005462 0.080660 -0.061253 0.010000
+	collisionSphere -0.034538 0.114410 0.053745 0.010000
+	collisionSphere 0.005462 0.114410 0.053745 0.010000
+	collisionSphere -0.034538 0.046910 0.053745 0.010000
+	collisionSphere 0.005462 0.046910 0.053745 0.010000
+	collisionSphere -0.034538 0.114410 -0.061253 0.010000
+	collisionSphere 0.005462 0.114410 -0.061253 0.010000
+	collisionSphere -0.034538 0.046910 -0.061253 0.010000
+	collisionSphere 0.005462 0.046910 -0.061253 0.010000
+	collisionSphere -0.007588 0.052927 0.026697 0.010000
+	collisionSphere -0.007588 -0.234810 0.026697 0.010000
+    endEffector -0.007588 -0.234810 0.026697 0.010000
+/End_RB
+
+
+RB
+	name RH_SHANK
+	mass 0.588420
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.010161 0.001550 0.008810 0.000023 0.000054 -0.001819
+	mesh robots/anymal_c/meshes/shank_l.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 -0.707107 0.000000 0.005462 0.080660 0.061253
+	mesh robots/anymal_c/meshes/foot.obj
+	meshDescription 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.923880 0.000000 -0.382683 0.000000 -0.007588 -0.257310 -0.026697
+	collisionSphere -0.034538 0.080660 0.061253 0.010000
+	collisionSphere 0.005462 0.080660 0.061253 0.010000
+	collisionSphere -0.034538 0.114410 0.061253 0.010000
+	collisionSphere 0.005462 0.114410 0.061253 0.010000
+	collisionSphere -0.034538 0.046910 0.061253 0.010000
+	collisionSphere 0.005462 0.046910 0.061253 0.010000
+	collisionSphere -0.034538 0.114410 -0.053745 0.010000
+	collisionSphere 0.005462 0.114410 -0.053745 0.010000
+	collisionSphere -0.034538 0.046910 -0.053745 0.010000
+	collisionSphere 0.005462 0.046910 -0.053745 0.010000
+	collisionSphere -0.007588 0.052927 -0.026697 0.010000
+	collisionSphere -0.007588 -0.234810 -0.026697 0.010000
+	endEffector -0.007588 -0.234810 -0.026697 0.010000
+/End_RB
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LF_HAA
+		parent base
+		child LF_HIP
+		jointCPos -0.017394 0.000461 -0.056661
+		jointPPos 0.104178 -0.008504 0.317694
+	/End_Joint
+
+
+	RBJoint
+		jointAxis -0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LH_HAA
+		parent base
+		child LH_HIP
+		jointCPos -0.017394 0.000461 0.056763
+		jointPPos 0.104178 -0.008504 -0.282106
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RF_HAA
+		parent base
+		child RF_HIP
+		jointCPos 0.017394 0.000461 -0.056763
+		jointPPos -0.103822 -0.008504 0.317694
+	/End_Joint
+
+
+	RBJoint
+		jointAxis -0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RH_HAA
+		parent base
+		child RH_HIP
+		jointCPos 0.017394 0.000461 0.056661
+		jointPPos -0.103822 -0.008504 -0.282106
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LF_HFE
+		parent LF_HIP
+		child LF_THIGH
+		jointCPos -0.030815 0.245696 0.000046
+		jointPPos 0.066416 0.000461 0.003239
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LH_HFE
+		parent LH_HIP
+		child LH_THIGH
+		jointCPos -0.030815 0.245696 0.000046
+		jointPPos 0.066416 0.000461 -0.003137
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RF_HFE
+		parent RF_HIP
+		child RF_THIGH
+		jointCPos 0.030815 0.245696 -0.000046
+		jointPPos -0.066416 0.000461 0.003137
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RH_HFE
+		parent RH_HIP
+		child RH_THIGH
+		jointCPos 0.030815 0.245696 -0.000046
+		jointPPos -0.066416 0.000461 -0.003239
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LF_KFE
+		parent LF_THIGH
+		child LF_SHANK
+		jointCPos -0.005462 0.080660 -0.061253
+		jointPPos 0.069485 -0.039304 0.000046
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 -0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name LH_KFE
+		parent LH_THIGH
+		child LH_SHANK
+		jointCPos -0.005462 0.080660 0.061253
+		jointPPos 0.069485 -0.039304 0.000046
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RF_KFE
+		parent RF_THIGH
+		child RF_SHANK
+		jointCPos 0.005462 0.080660 -0.061253
+		jointPPos -0.069485 -0.039304 -0.000046
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 -0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		name RH_KFE
+		parent RH_THIGH
+		child RH_SHANK
+		jointCPos 0.005462 0.080660 0.061253
+		jointPPos -0.069485 -0.039304 -0.000046
+	/End_Joint
+
+

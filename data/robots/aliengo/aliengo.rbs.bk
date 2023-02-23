@@ -1,0 +1,440 @@
+RB
+	name base
+	mass 11.042000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.640361 0.656650 0.050974 0.000048 -0.000452 0.000488
+	mesh robots/aliengo/meshes/trunk.obj 
+	meshColor 0.300000 0.300000 0.300000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.004045 0.000763 -0.008464
+	collisionSphere 0.070955 0.056763 0.315036 0.010000
+	collisionSphere -0.079045 0.056763 0.315036 0.010000
+	collisionSphere 0.070955 -0.055237 0.315036 0.010000
+	collisionSphere -0.079045 -0.055237 0.315036 0.010000
+	collisionSphere 0.070955 0.056763 -0.331964 0.010000
+	collisionSphere -0.079045 0.056763 -0.331964 0.010000
+	collisionSphere 0.070955 -0.055237 -0.331964 0.010000
+	collisionSphere -0.079045 -0.055237 -0.331964 0.010000
+	collisionSphere -0.003545 0.001263 -0.007964 0.010000
+	collisionSphere -0.004545 0.001263 -0.007964 0.010000
+	collisionSphere -0.003545 0.000263 -0.007964 0.010000
+	collisionSphere -0.004545 0.000263 -0.007964 0.010000
+	collisionSphere -0.003545 0.001263 -0.008964 0.010000
+	collisionSphere -0.004545 0.001263 -0.008964 0.010000
+	collisionSphere -0.003545 0.000263 -0.008964 0.010000
+	collisionSphere -0.004545 0.000263 -0.008964 0.010000
+/End_RB
+
+
+RB
+	name FL_hip
+	mass 1.993000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004908 0.005587 0.002904 -0.000002 -0.000072 -0.000001
+	mesh robots/aliengo/meshes/hip.obj 
+	meshColor 0.500000 0.500000 0.500000 
+	meshTransformation 0.500000 -0.500000 -0.500000 -0.500000 -0.015144 0.000015 0.022191
+	collisionSphere 0.046956 0.000015 0.022191 0.010000
+	collisionSphere 0.088756 0.000015 0.022191 0.010000
+/End_RB
+
+
+RB
+	name FR_hip
+	mass 1.993000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004908 0.005587 0.002904 0.000002 0.000072 -0.000001
+	mesh robots/aliengo/meshes/hip.obj 
+	meshColor 0.500000 0.500000 0.500000 
+	meshTransformation -0.500000 -0.500000 0.500000 -0.500000 0.015144 0.000015 0.022191
+	collisionSphere -0.088756 0.000015 0.022191 0.010000
+	collisionSphere -0.046956 0.000015 0.022191 0.010000
+/End_RB
+
+
+RB
+	name RL_hip
+	mass 1.993000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004908 0.005587 0.002904 -0.000002 0.000072 0.000001
+	mesh robots/aliengo/meshes/hip.obj 
+	meshColor 0.500000 0.500000 0.500000 
+	meshTransformation -0.500000 -0.500000 -0.500000 0.500000 -0.015144 0.000015 -0.022191
+	collisionSphere 0.046956 0.000015 -0.022191 0.010000
+	collisionSphere 0.088756 0.000015 -0.022191 0.010000
+/End_RB
+
+
+RB
+	name RR_hip
+	mass 1.993000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.004908 0.005587 0.002904 0.000002 -0.000072 0.000001
+	mesh robots/aliengo/meshes/hip.obj 	
+	meshColor 0.500000 0.500000 0.500000 
+	meshTransformation 0.500000 -0.500000 0.500000 0.500000 0.015144 0.000015 -0.022191
+	collisionSphere -0.088756 0.000015 -0.022191 0.010000
+	collisionSphere -0.046956 0.000015 -0.022191 0.010000
+/End_RB
+
+
+RB
+	name FL_thigh
+	mass 0.639000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005847 0.000370 0.005667 0.000010 0.000004 0.000491
+	mesh robots/aliengo/meshes/thigh.obj 
+	meshColor 0.700000 0.700000 0.700000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.003877 0.048199 0.005607
+	collisionSphere 0.022577 -0.201801 0.027107 0.010000
+	collisionSphere -0.014823 -0.201801 0.027107 0.010000
+	collisionSphere 0.022577 0.048199 0.027107 0.010000
+	collisionSphere -0.014823 0.048199 0.027107 0.010000
+	collisionSphere 0.022577 -0.201801 -0.015893 0.010000
+	collisionSphere -0.014823 -0.201801 -0.015893 0.010000
+	collisionSphere 0.022577 0.048199 -0.015893 0.010000
+	collisionSphere -0.014823 0.048199 -0.015893 0.010000
+/End_RB
+
+
+RB
+	name FR_thigh
+	mass 0.639000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005847 0.000370 0.005667 -0.000010 -0.000004 0.000491
+	mesh robots/aliengo/meshes/thigh_mirror.obj 
+	meshColor 0.700000 0.700000 0.700000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.003877 0.048199 0.005607
+	collisionSphere 0.014823 -0.201801 0.027107 0.010000
+	collisionSphere -0.022577 -0.201801 0.027107 0.010000
+	collisionSphere 0.014823 0.048199 0.027107 0.010000
+	collisionSphere -0.022577 0.048199 0.027107 0.010000
+	collisionSphere 0.014823 -0.201801 -0.015893 0.010000
+	collisionSphere -0.022577 -0.201801 -0.015893 0.010000
+	collisionSphere 0.014823 0.048199 -0.015893 0.010000
+	collisionSphere -0.022577 0.048199 -0.015893 0.010000
+/End_RB
+
+
+RB
+	name RL_thigh
+	mass 0.639000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005847 0.000370 0.005667 0.000010 0.000004 0.000491
+	mesh robots/aliengo/meshes/thigh.obj 
+	meshColor 0.700000 0.700000 0.700000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 0.003877 0.048199 0.005607
+	collisionSphere 0.022577 -0.201801 0.027107 0.010000
+	collisionSphere -0.014823 -0.201801 0.027107 0.010000
+	collisionSphere 0.022577 0.048199 0.027107 0.010000
+	collisionSphere -0.014823 0.048199 0.027107 0.010000
+	collisionSphere 0.022577 -0.201801 -0.015893 0.010000
+	collisionSphere -0.014823 -0.201801 -0.015893 0.010000
+	collisionSphere 0.022577 0.048199 -0.015893 0.010000
+	collisionSphere -0.014823 0.048199 -0.015893 0.010000
+/End_RB
+
+
+RB
+	name RR_thigh
+	mass 0.639000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.005847 0.000370 0.005667 -0.000010 -0.000004 0.000491
+	mesh robots/aliengo/meshes/thigh_mirror.obj 
+	meshColor 0.700000 0.700000 0.700000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.003877 0.048199 0.005607
+	collisionSphere 0.014823 -0.201801 0.027107 0.010000
+	collisionSphere -0.022577 -0.201801 0.027107 0.010000
+	collisionSphere 0.014823 0.048199 0.027107 0.010000
+	collisionSphere -0.022577 0.048199 0.027107 0.010000
+	collisionSphere 0.014823 -0.201801 -0.015893 0.010000
+	collisionSphere -0.022577 -0.201801 -0.015893 0.010000
+	collisionSphere 0.014823 0.048199 -0.015893 0.010000
+	collisionSphere -0.022577 0.048199 -0.015893 0.010000
+/End_RB
+
+
+RB
+	name FL_calf
+	mass 0.267000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.006910 0.000056 0.006896 -0.000002 -0.000000 -0.000102
+	mesh robots/aliengo/meshes/calf.obj 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.000049 0.166671 -0.002156
+	collisionSphere 0.010351 -0.083329 0.005844 0.010000
+	collisionSphere -0.010449 -0.083329 0.005844 0.010000
+	collisionSphere 0.010351 0.166671 0.005844 0.010000
+	collisionSphere -0.010449 0.166671 0.005844 0.010000
+	collisionSphere 0.010351 -0.083329 -0.010156 0.010000
+	collisionSphere -0.010449 -0.083329 -0.010156 0.010000
+	collisionSphere 0.010351 0.166671 -0.010156 0.010000
+	collisionSphere -0.010449 0.166671 -0.010156 0.010000
+	collisionSphere -0.000049 -0.083329 -0.002156 0.026500
+	endEffector -0.000049 -0.083329 -0.002156 0.026500
+/End_RB
+
+
+RB
+	name FR_calf
+	mass 0.267000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.006910 0.000056 0.006896 -0.000002 -0.000000 -0.000102
+	mesh robots/aliengo/meshes/calf.obj 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.000049 0.166671 -0.002156
+	collisionSphere 0.010351 -0.083329 0.005844 0.010000
+	collisionSphere -0.010449 -0.083329 0.005844 0.010000
+	collisionSphere 0.010351 0.166671 0.005844 0.010000
+	collisionSphere -0.010449 0.166671 0.005844 0.010000
+	collisionSphere 0.010351 -0.083329 -0.010156 0.010000
+	collisionSphere -0.010449 -0.083329 -0.010156 0.010000
+	collisionSphere 0.010351 0.166671 -0.010156 0.010000
+	collisionSphere -0.010449 0.166671 -0.010156 0.010000
+	collisionSphere -0.000049 -0.083329 -0.002156 0.026500
+	endEffector -0.000049 -0.083329 -0.002156 0.026500
+/End_RB
+
+
+RB
+	name RL_calf
+	mass 0.267000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.006910 0.000056 0.006896 -0.000002 -0.000000 -0.000102
+	mesh robots/aliengo/meshes/calf.obj 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.000049 0.166671 -0.002156
+	collisionSphere 0.010351 -0.083329 0.005844 0.010000
+	collisionSphere -0.010449 -0.083329 0.005844 0.010000
+	collisionSphere 0.010351 0.166671 0.005844 0.010000
+	collisionSphere -0.010449 0.166671 0.005844 0.010000
+	collisionSphere 0.010351 -0.083329 -0.010156 0.010000
+	collisionSphere -0.010449 -0.083329 -0.010156 0.010000
+	collisionSphere 0.010351 0.166671 -0.010156 0.010000
+	collisionSphere -0.010449 0.166671 -0.010156 0.010000
+	collisionSphere -0.000049 -0.083329 -0.002156 0.026500
+	endEffector -0.000049 -0.083329 -0.002156 0.026500
+/End_RB
+
+
+RB
+	name RR_calf
+	mass 0.267000
+	frictionCoefficient 0.800000
+	restitutionCoefficient 0.000000
+	moi 0.006910 0.000056 0.006896 -0.000002 -0.000000 -0.000102
+	mesh robots/aliengo/meshes/calf.obj 
+	meshColor 0.900000 0.900000 0.900000 
+	meshTransformation -0.707107 0.000000 0.707107 0.000000 -0.000049 0.166671 -0.002156
+	collisionSphere 0.010351 -0.083329 0.005844 0.010000
+	collisionSphere -0.010449 -0.083329 0.005844 0.010000
+	collisionSphere 0.010351 0.166671 0.005844 0.010000
+	collisionSphere -0.010449 0.166671 0.005844 0.010000
+	collisionSphere 0.010351 -0.083329 -0.010156 0.010000
+	collisionSphere -0.010449 -0.083329 -0.010156 0.010000
+	collisionSphere 0.010351 0.166671 -0.010156 0.010000
+	collisionSphere -0.010449 0.166671 -0.010156 0.010000
+	collisionSphere -0.000049 -0.083329 -0.002156 0.026500
+	endEffector -0.000049 -0.083329 -0.002156 0.026500
+/End_RB
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -1.2217304764 1.2217304764
+		jointMaxSpeed 20
+		jointMaxTorque 44
+		name FL_hip_joint
+		parent base
+		child FL_hip
+		jointCPos -0.015144 0.000015 0.022191
+		jointPPos 0.046955 0.000763 0.231436
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -1.2217304764 1.2217304764
+		jointMaxSpeed 20
+		jointMaxTorque 44
+		name FR_hip_joint
+		parent base
+		child FR_hip
+		jointCPos 0.015144 0.000015 0.022191
+		jointPPos -0.055045 0.000763 0.231436
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -1.2217304764 1.2217304764
+		jointMaxSpeed 20
+		jointMaxTorque 44
+		name RL_hip_joint
+		parent base
+		child RL_hip
+		jointCPos -0.015144 0.000015 -0.022191
+		jointPPos 0.046955 0.000763 -0.248364
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 0.000000 0.000000 1.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -1.2217304764 1.2217304764
+		jointMaxSpeed 20
+		jointMaxTorque 44
+		name RR_hip_joint
+		parent base
+		child RR_hip
+		jointCPos 0.015144 0.000015 -0.022191
+		jointPPos -0.055045 0.000763 -0.248364
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+        jointMaxSpeed 20
+        jointMaxTorque 44
+		name FL_thigh_joint
+		parent FL_hip
+		child FL_thigh
+		jointCPos 0.003877 0.048199 0.005607
+		jointPPos 0.067856 0.000015 0.022191
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+        jointMaxSpeed 20
+        jointMaxTorque 44
+		name FR_thigh_joint
+		parent FR_hip
+		child FR_thigh
+		jointCPos -0.003877 0.048199 0.005607
+		jointPPos -0.067856 0.000015 0.022191
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+        jointMaxSpeed 20
+        jointMaxTorque 44
+		name RL_thigh_joint
+		parent RL_hip
+		child RL_thigh
+		jointCPos 0.003877 0.048199 0.005607
+		jointPPos 0.067856 0.000015 -0.022191
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+        jointMaxSpeed 20
+        jointMaxTorque 44
+		name RR_thigh_joint
+		parent RR_hip
+		child RR_thigh
+		jointCPos -0.003877 0.048199 0.005607
+		jointPPos -0.067856 0.000015 -0.022191
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -2.77507351067 -0.645771823238
+        jointMaxSpeed 16
+        jointMaxTorque 55
+		name FL_calf_joint
+		parent FL_thigh
+		child FL_calf
+		jointCPos -0.000049 0.166671 -0.002156
+		jointPPos 0.003877 -0.201801 0.005607
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+ 		jointLimits -2.77507351067 -0.645771823238
+        jointMaxSpeed 16
+        jointMaxTorque 55
+		name FR_calf_joint
+		parent FR_thigh
+		child FR_calf
+		jointCPos -0.000049 0.166671 -0.002156
+		jointPPos -0.003877 -0.201801 0.005607
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+		jointLimits -2.77507351067 -0.645771823238
+        jointMaxSpeed 16
+        jointMaxTorque 55
+		name RL_calf_joint
+		parent RL_thigh
+		child RL_calf
+		jointCPos -0.000049 0.166671 -0.002156
+		jointPPos 0.003877 -0.201801 0.005607
+	/End_Joint
+
+
+	RBJoint
+		jointAxis 1.000000 0.000000 0.000000
+		defaultAngle 0.000000
+		jointMotorKp 12000.000000
+		jointMotorKd 0.100000
+        jointLimits -2.77507351067 -0.645771823238
+        jointMaxSpeed 16
+        jointMaxTorque 55
+		name RR_calf_joint
+		parent RR_thigh
+		child RR_calf
+		jointCPos -0.000049 0.166671 -0.002156
+		jointPPos -0.003877 -0.201801 0.005607
+	/End_Joint
+
+
