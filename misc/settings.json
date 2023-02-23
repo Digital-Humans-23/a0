@@ -42,7 +42,7 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "**/build/**": true,
-        "**/cmake-build-**/**": true
+        "**/build/**": false,
+        "**/cmake-build-**/**": false
     }
 }

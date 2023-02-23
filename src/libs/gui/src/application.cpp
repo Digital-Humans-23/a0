@@ -385,7 +385,7 @@ void Application::drawFPS() {
     ImGui::Checkbox("Limit FPS", &limitFramerate);
     ImGui::SameLine(pixelRatio * 100);
     if (limitFramerate)
-        ImGui::InputInt("", &targetFramerate);
+        ImGui::InputInt("###targetFrameRateGui", &targetFramerate);
     ImGui::End();
 }
 
