@@ -60,10 +60,15 @@ On Windows, you can use Git Bash to perform the steps mentioned below.
     cmake ..
     ```
 3. Compile code and run executable
-    - for MacOS and Linux:
+    - for Linux:
         ```
         make
         ./src/basicApp/basicApp
+        ```
+    - for MacOS:
+        ```
+        make
+        ./src/apps/basicApp/basicApp
         ```
     - for Windows: 
         * open `build/a0.sln` in Visual Studio
