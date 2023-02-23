@@ -39,10 +39,6 @@ list(APPEND
      VIRTUAL_HUMANS_MY_INFO="${CMAKE_CURRENT_LIST_DIR}/../../../my-info.json" #
 )
 
-message(STATUS "kllalal")
-message(STATUS ${CMAKE_CURRENT_LIST_DIR})
-message(STATUS ${CRL_COMPILE_DEFINITIONS})
-
 
 set(CRL_TEST_SOURCES test/test.cpp)
 

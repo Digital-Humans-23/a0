@@ -150,7 +150,7 @@ public:
     float groundColor[3] = {1.0, 1.0, 1.0};
 
     //--- World
-    double world_frame_length = 1.0, world_frame_radius = 0.01;
+    double world_frame_length = 0.5, world_frame_radius = 0.02;
     bool show_world_frame = true;
 
     //--- Shaders
